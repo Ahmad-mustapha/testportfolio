@@ -1,0 +1,26 @@
+.portfolio__service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* max-width: min(400px, 40%); */
+}
+.portfolio__service-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio__service-content{
+    text-align: center;
+    line-height: 2rem;
+}
+.portfolio__service-content p:first-child{
+    font-size: 1.5rem;
+    color: rgb(88, 88, 199);
+    font-family: sans-serif;
+}
+.portfolio__service-content p:last-child{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, .7);
+}

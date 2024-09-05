@@ -1,0 +1,44 @@
+.portfolio__header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/beach.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio__header-contents{
+    padding: 10rem 0rem 2rem 4rem;
+    width: min(600px, 90%);
+}
+.portfolio__header-contents h1{
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: rgb(109, 109, 180);
+}
+.portfolio__header-contents h1 span{
+    background: linear-gradient(to bottom, black, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.portfolio__header-contents p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: brown;
+}
+@media screen and (max-width: 1080px) {
+    .portfolio__header-contents{
+        padding: 10rem 0 2rem 3rem;
+    }
+    .portfolio__header-contents h1{
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+    .portfolio__header-contents p{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 1027px) {
+    .portfolio__header-contents{
+        padding: 10rem 0 2rem 2rem;
+    }
+}

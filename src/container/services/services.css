@@ -1,0 +1,27 @@
+.portfolio__services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+.portfolio__services-heading{
+    text-align: center;
+}
+.portfolio__services-heading h1{
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    color: rgb(79, 79, 176);
+}
+.portfolio__service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem;
+}
+@media screen and (max-width: 1026px) {
+    .portfolio__service-container{
+        flex-wrap: wrap;
+    }
+}
