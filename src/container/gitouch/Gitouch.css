@@ -1,0 +1,36 @@
+.portfolio__gittouch-heading p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(88, 88, 199);
+    margin-bottom: 2rem;
+}
+input, textarea{
+    min-width: min(100%, 530px);
+    padding: .85rem;
+    margin-bottom: .8rem;
+    background-color: rgb(233, 233, 244);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+input:focus, textarea:focus{
+    outline: 1px solid brown;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    appearance: none;
+}
+::placeholder{
+    font-family: sans-serif;
+    font-size: .9rem;
+}
+@media screen and (max-width: 700px) {
+    .portfolio__gittouch{
+        padding: 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .portfolio__gittouch{
+        padding: 2rem;
+    }
+}

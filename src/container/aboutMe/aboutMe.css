@@ -1,0 +1,136 @@
+.portfolio__aboutMe{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 5rem;
+    background-color: rgba(91, 113, 151, .2)
+}
+.portfolio__aboutMe-image{
+    /* width: 50vw; */
+    flex: 0.75;
+}
+.portfolio__aboutMe-image img{
+   width: 100%;
+}
+.portfolio__aboutMe-image img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    opacity: .8;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.portfolio__aboutMe-contents{
+    flex: 1;
+    /* width: 50vw; */
+}
+.portfolio__aboutMe-content-header{
+    margin-bottom: 2rem;
+}
+.portfolio__aboutMe-content-header p{
+    font-size: 2rem;
+    color: rgb(79, 79, 176);
+}
+.portfolio__aboutMe-content-text{
+    line-height: 1.6rem;
+    font-family: sans-serif;
+    font-size: large;
+    color: rgba(0, 0, 0, .6);
+}
+.portfolio__aboutMe-content-attentionTo{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+.portfolio__aboutMe-content-attentionTo li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+.portfolio__aboutMe-contents-details{
+    display: flex;
+    /* align-items: center; */
+    gap: 3rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+.col p{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.35rem;
+    font-family: sans-serif;
+    color: rgb(74, 74, 188);
+}
+.col .line{
+    width: 1px;
+    height: 1.5rem;
+    background-color: #666;
+}
+.col p span{
+    color: #888;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+.portfolio__aboutMe-downloadResume{
+    color: gray;
+    font-weight: bold;
+    background: linear-gradient(to right, black, brown);
+    padding: .5rem .9rem;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+.portfolio__aboutMe-downloadResume:hover{
+    color: brown;
+    background: transparent;
+    border: 1px solid brown;
+}
+@media screen and (max-width: 1300px) {
+    .portfolio__aboutMe{
+        gap: 4rem;
+        padding: 3rem;
+    }
+    .portfolio__aboutMe-image{
+        flex: 0.9;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .portfolio__aboutMe{
+        gap: 3.7rem;
+        /* background-color: red; */
+    }
+    .portfolio__aboutMe-image{
+        width: 50%;
+    }
+    .portfolio__aboutMe-contents{
+        width: 50vw;
+    }
+    .portfolio__aboutMe-contents-details{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1035px) {
+    .portfolio__aboutMe{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .portfolio__aboutMe-contents{
+        width: 100%;
+    }
+    .portfolio__aboutMe-image{
+        width: 80%;
+    }
+}
