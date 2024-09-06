@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Projects.css'
+import './projects.css'
 import todolist from '../../assets/todolist.png'
 import planetweightCal from '../../assets/planetweightCal.jpg'
 import quizGame from '../../assets/quizGame.jpg'
