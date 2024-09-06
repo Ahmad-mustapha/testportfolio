@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-// import '@fortawesome/fontawesome-free/css/all.css';
-import { Navbar, fact, Project, Service, Footer } from './component/import';
-import { Skills, AboutMe, Services, Projects, Header, Facts } from './container/import';
+import { Navbar, Fact, Service, Footer } from './component/import';
+import { Skills, AboutMe, Facts, Projects, Services, Header} from './container/import';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import Gitouch from './container/gitouch/Gitouch';
 import { FaGithub, FaFacebookF } from 'react-icons/fa'
